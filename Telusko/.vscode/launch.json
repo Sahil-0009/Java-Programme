@@ -1,0 +1,245 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "cls98",
+            "request": "launch",
+            "mainClass": "cls98",
+            "projectName": "Telusko_68670645"
+        },
+        {
+            "type": "java",
+            "name": "cls97",
+            "request": "launch",
+            "mainClass": "cls97",
+            "projectName": "Telusko_68670645"
+        },
+        {
+            "type": "java",
+            "name": "cls96",
+            "request": "launch",
+            "mainClass": "cls96",
+            "projectName": "Telusko_68670645"
+        },
+        {
+            "type": "java",
+            "name": "cls94",
+            "request": "launch",
+            "mainClass": "cls94",
+            "projectName": "Telusko_68670645"
+        },
+        {
+            "type": "java",
+            "name": "cls88",
+            "request": "launch",
+            "mainClass": "cls88",
+            "projectName": "Telusko_68670645"
+        },
+        {
+            "type": "java",
+            "name": "cls73",
+            "request": "launch",
+            "mainClass": "cls73",
+            "projectName": "Telusko_68670645"
+        },
+        {
+            "type": "java",
+            "name": "cls70",
+            "request": "launch",
+            "mainClass": "cls70",
+            "projectName": "Telusko_68670645"
+        },
+        {
+            "type": "java",
+            "name": "cls67",
+            "request": "launch",
+            "mainClass": "cls67",
+            "projectName": "Telusko_68670645"
+        },
+        {
+            "type": "java",
+            "name": "cls64",
+            "request": "launch",
+            "mainClass": "cls64",
+            "projectName": "Telusko_68670645"
+        },
+        {
+            "type": "java",
+            "name": "cls63",
+            "request": "launch",
+            "mainClass": "cls63",
+            "projectName": "Telusko_68670645"
+        },
+        {
+            "type": "java",
+            "name": "cls61",
+            "request": "launch",
+            "mainClass": "cls61",
+            "projectName": "Telusko_68670645"
+        },
+        {
+            "type": "java",
+            "name": "cls60",
+            "request": "launch",
+            "mainClass": "cls60",
+            "projectName": "Telusko_68670645"
+        },
+        {
+            "type": "java",
+            "name": "cls56",
+            "request": "launch",
+            "mainClass": "cls56",
+            "projectName": "Telusko_68670645"
+        },
+        {
+            "type": "java",
+            "name": "cls55",
+            "request": "launch",
+            "mainClass": "cls55",
+            "projectName": "Telusko_68670645"
+        },
+        {
+            "type": "java",
+            "name": "VeryAdvCalc",
+            "request": "launch",
+            "mainClass": "VeryAdvCalc",
+            "projectName": "Telusko_68670645"
+        },
+        {
+            "type": "java",
+            "name": "Calc",
+            "request": "launch",
+            "mainClass": "Calc",
+            "projectName": "Telusko_68670645"
+        },
+        {
+            "type": "java",
+            "name": "AdvCalc",
+            "request": "launch",
+            "mainClass": "AdvCalc",
+            "projectName": "Telusko_68670645"
+        },
+        {
+            "type": "java",
+            "name": "Encap",
+            "request": "launch",
+            "mainClass": "Encap",
+            "projectName": "Telusko_68670645"
+        },
+        {
+            "type": "java",
+            "name": "staticMethod",
+            "request": "launch",
+            "mainClass": "staticMethod",
+            "projectName": "Telusko_68670645"
+        },
+        {
+            "type": "java",
+            "name": "staticDemo",
+            "request": "launch",
+            "mainClass": "staticDemo",
+            "projectName": "Telusko_68670645"
+        },
+        {
+            "type": "java",
+            "name": "stringbuf",
+            "request": "launch",
+            "mainClass": "stringbuf",
+            "projectName": "Telusko_68670645"
+        },
+        {
+            "type": "java",
+            "name": "stringg",
+            "request": "launch",
+            "mainClass": "stringg",
+            "projectName": "Telusko_68670645"
+        },
+        {
+            "type": "java",
+            "name": "arrObj",
+            "request": "launch",
+            "mainClass": "arrObj",
+            "projectName": "Telusko_68670645"
+        },
+        {
+            "type": "java",
+            "name": "arr2",
+            "request": "launch",
+            "mainClass": "arr2",
+            "projectName": "Telusko_68670645"
+        },
+        {
+            "type": "java",
+            "name": "arr",
+            "request": "launch",
+            "mainClass": "arr",
+            "projectName": "Telusko_68670645"
+        },
+        {
+            "type": "java",
+            "name": "Demo",
+            "request": "launch",
+            "mainClass": "Demo",
+            "projectName": "Telusko_68670645"
+        },
+        {
+            "type": "java",
+            "name": "method24",
+            "request": "launch",
+            "mainClass": "method24",
+            "projectName": "Telusko_68670645"
+        },
+        {
+            "type": "java",
+            "name": "CO",
+            "request": "launch",
+            "mainClass": "CO",
+            "projectName": "Telusko_68670645"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "evev",
+            "request": "launch",
+            "mainClass": "evev",
+            "projectName": "Telusko_68670645"
+        },
+        {
+            "type": "java",
+            "name": "frlp",
+            "request": "launch",
+            "mainClass": "frlp",
+            "projectName": "Telusko_68670645"
+        },
+        {
+            "type": "java",
+            "name": "hello",
+            "request": "launch",
+            "mainClass": "hello",
+            "projectName": "Telusko_68670645"
+        },
+        {
+            "type": "java",
+            "name": "switch2",
+            "request": "launch",
+            "mainClass": "switch2",
+            "projectName": "Telusko_68670645"
+        },
+        {
+            "type": "java",
+            "name": "while1",
+            "request": "launch",
+            "mainClass": "while1",
+            "projectName": "Telusko_68670645"
+        }
+    ]
+}
