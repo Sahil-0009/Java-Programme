@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 public class arry {
     public static void main(String[] args) {
         int[] arr = { 1, 2, 3, 4, 5 };
@@ -15,3 +16,22 @@ public class arry {
 
     }
 }
+=======
+public class arry {
+    public static void main(String[] args) {
+        int[] arr = { 1, 2, 3, 4, 5 };
+        int max = 0;
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] > max) {
+                max = arr[i];
+                i++;
+            } else {
+                return;
+            }
+
+        }
+        System.out.println("The Largest number is : " + max);
+
+    }
+}
+>>>>>>> 6af294f36f07cebedcb402680b53872868b590eb
