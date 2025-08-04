@@ -64,27 +64,72 @@ public class hashing {
     // array, ensuring that duplicates in the second array are not counted multiple
     // times.
 
-    public static int intersection(int[] arr1, int[] arr2) {
-        HashSet<Integer> set = new HashSet<>();
-        HashSet<Integer> intersectionSet = new HashSet<>();
-        for (int num : arr1) {
-            set.add(num);
-        }
-        int count = 0;
-        for (int num : arr2) {
-            if (set.contains(num)) {
-                intersectionSet.add(num);
-                count++;
-                set.remove(num); // To avoid counting duplicates in arr2
-            }
-        }
-        System.out.println("Elements in intersection: " + intersectionSet);
-        return count;
-    }
+    /*
+     * public static int intersection(int[] arr1, int[] arr2) {
+     * HashSet<Integer> set = new HashSet<>();
+     * HashSet<Integer> intersectionSet = new HashSet<>();
+     * for (int num : arr1) {
+     * set.add(num);
+     * }
+     * int count = 0;
+     * for (int num : arr2) {
+     * if (set.contains(num)) {
+     * intersectionSet.add(num);
+     * count++;
+     * set.remove(num); // To avoid counting duplicates in arr2
+     * }
+     * }
+     * System.out.println("Elements in intersection: " + intersectionSet);
+     * return count;
+     * }
+     * 
+     * public static void main(String[] args) {
+     * int arr1[] = { 1, 2, 3, 1, 5, 6, 1, 8, 1, 10 };
+     * int arr2[] = { 1, 2, 3, 4, 5 };
+     * System.out.println("Intersection count of arr1 and arr2 is: " +
+     * intersection(arr1, arr2));
+     * }
+     * }
+     */
+    
+    // This method finds the start point of a journey based on a mapping of tickets.
+    // It identifies the starting point by checking which ticket's destination is not
+    // a source for any other ticket.
+    // The method iterates through the tickets and uses a HashSet to track all
+    // destinations. It then checks each ticket's source against this set to find the
+    // start point. If no start point is found, it returns null.
 
-    public static void main(String[] args) {
-        int arr1[] = { 1, 2, 3, 1, 5, 6, 1, 8, 1, 10 };
-        int arr2[] = { 1, 2, 3, 4, 5 };
-        System.out.println("Intersection count of arr1 and arr2 is: " + intersection(arr1, arr2));
-    }
+    /*
+     * public static String getStart(HashMap<String, String> tickets) {
+     * HashSet<String> revMap = new HashSet<>();
+     * for (String key : tickets.keySet()) {
+     * revMap.add(tickets.get(key));
+     * }
+     * for (String key : tickets.keySet()) {
+     * if (!revMap.contains(key)) {
+     * System.out.println("Start point is: " + key);
+     * return key;
+     * }
+     * }
+     * System.out.println("No start point found.");
+     * return null;
+     * 
+     * }
+     * 
+     * public static void main(String[] args) {
+     * HashMap<String, String> tickets = new HashMap<>();
+     * tickets.put("Chennai", "Bangalore");
+     * tickets.put("Mumbai", "Delhi");
+     * tickets.put("Goa", "Chennai");
+     * tickets.put("Delhi", "Goa");
+     * String start = getStart(tickets);
+     * while (tickets.containsKey(start)) {
+     * System.out.print(start + " -> ");
+     * start = tickets.get(start);
+     * }
+     * System.out.println(start);
+     * 
+     * }
+     */
+
 }
